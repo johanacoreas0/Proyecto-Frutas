@@ -1,0 +1,85 @@
+body{
+	background-image: url("img/bg.png")
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #F7BD54;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: white;
+}
+
+.menu ul li{
+	list-style: none;
+	marker-top: 2%;
+	color: black;
+}
+
+.menu ul ul{
+	display: none;
+}
+
+.menu li:hover{
+	color: white;
+}
+
+.menu ul li:hover>ul{
+	display: block;
+}
+
+.menu ul ul ul{
+	margin-left: 170px;
+	top: 0;
+	position: absolute;
+}
+
+
+p{
+	text-align: justify;
+}
+
+.main{
+	margin-top: 20px;
+}
+
+.framecontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+hr{
+	background-color: #F7BD54;
+}
+
+
+footer{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: #F7BD54;
+}
